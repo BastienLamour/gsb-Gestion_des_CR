@@ -91,10 +91,10 @@
     <Compile Include="menuVisiteur.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="histogramme.Designer.vb">
-      <DependentUpon>histogramme.vb</DependentUpon>
+    <Compile Include="historique.Designer.vb">
+      <DependentUpon>historique.vb</DependentUpon>
     </Compile>
-    <Compile Include="histogramme.vb">
+    <Compile Include="historique.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="voir_visite.Designer.vb">
@@ -129,8 +129,8 @@
     <EmbeddedResource Include="menuVisiteur.resx">
       <DependentUpon>menuVisiteur.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="histogramme.resx">
-      <DependentUpon>histogramme.vb</DependentUpon>
+    <EmbeddedResource Include="historique.resx">
+      <DependentUpon>historique.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="voir_visite.resx">
       <DependentUpon>voir_visite.vb</DependentUpon>

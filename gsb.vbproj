@@ -85,16 +85,34 @@
     <Compile Include="compte_rendu.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="menuVisiteur.Designer.vb">
-      <DependentUpon>menuVisiteur.vb</DependentUpon>
+    <Compile Include="donner_avis.Designer.vb">
+      <DependentUpon>donner_avis.vb</DependentUpon>
     </Compile>
-    <Compile Include="menuVisiteur.vb">
+    <Compile Include="donner_avis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu_medecin.Designer.vb">
+      <DependentUpon>menu_medecin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="menu_medecin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu_visiteur.Designer.vb">
+      <DependentUpon>menu_visiteur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="menu_visiteur.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="historique.Designer.vb">
       <DependentUpon>historique.vb</DependentUpon>
     </Compile>
     <Compile Include="historique.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="voir_avis.Designer.vb">
+      <DependentUpon>voir_avis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="voir_avis.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="voir_visite.Designer.vb">
@@ -126,11 +144,20 @@
     <EmbeddedResource Include="compte_rendu.resx">
       <DependentUpon>compte_rendu.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="menuVisiteur.resx">
-      <DependentUpon>menuVisiteur.vb</DependentUpon>
+    <EmbeddedResource Include="donner_avis.resx">
+      <DependentUpon>donner_avis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu_medecin.resx">
+      <DependentUpon>menu_medecin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu_visiteur.resx">
+      <DependentUpon>menu_visiteur.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="historique.resx">
       <DependentUpon>historique.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="voir_avis.resx">
+      <DependentUpon>voir_avis.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="voir_visite.resx">
       <DependentUpon>voir_visite.vb</DependentUpon>

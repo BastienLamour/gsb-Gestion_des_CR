@@ -38,6 +38,8 @@ Partial Class compte_rendu
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -76,7 +78,7 @@ Partial Class compte_rendu
         Me.GroupBox1.Controls.Add(Me.RadioButton2)
         Me.GroupBox1.Controls.Add(Me.RadioButton1)
         Me.GroupBox1.Controls.Add(Me.Label2)
-        Me.GroupBox1.Location = New System.Drawing.Point(58, 214)
+        Me.GroupBox1.Location = New System.Drawing.Point(60, 303)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(435, 488)
         Me.GroupBox1.TabIndex = 2
@@ -172,7 +174,7 @@ Partial Class compte_rendu
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(211, 723)
+        Me.Button1.Location = New System.Drawing.Point(213, 812)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 5
@@ -190,7 +192,7 @@ Partial Class compte_rendu
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(58, 171)
+        Me.Button2.Location = New System.Drawing.Point(60, 260)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(435, 23)
         Me.Button2.TabIndex = 7
@@ -199,18 +201,46 @@ Partial Class compte_rendu
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(379, 112)
+        Me.Button3.Location = New System.Drawing.Point(379, 170)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(159, 23)
         Me.Button3.TabIndex = 8
         Me.Button3.Text = "Ajouter un médecin"
         Me.Button3.UseVisualStyleBackColor = True
         '
+        'TextBox3
+        '
+        Me.TextBox3.BackColor = System.Drawing.SystemColors.Info
+        Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox3.ForeColor = System.Drawing.SystemColors.WindowText
+        Me.TextBox3.HideSelection = False
+        Me.TextBox3.Location = New System.Drawing.Point(379, 129)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.ReadOnly = True
+        Me.TextBox3.Size = New System.Drawing.Size(159, 22)
+        Me.TextBox3.TabIndex = 9
+        Me.TextBox3.Text = "Ville  cabinet"
+        '
+        'TextBox4
+        '
+        Me.TextBox4.BackColor = System.Drawing.SystemColors.Info
+        Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox4.ForeColor = System.Drawing.SystemColors.WindowText
+        Me.TextBox4.HideSelection = False
+        Me.TextBox4.Location = New System.Drawing.Point(379, 101)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.ReadOnly = True
+        Me.TextBox4.Size = New System.Drawing.Size(159, 22)
+        Me.TextBox4.TabIndex = 10
+        Me.TextBox4.Text = "CP  cabinet"
+        '
         'compte_rendu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(574, 821)
+        Me.ClientSize = New System.Drawing.Size(574, 863)
+        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.ComboBox1)
@@ -242,4 +272,6 @@ Partial Class compte_rendu
     Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
 End Class

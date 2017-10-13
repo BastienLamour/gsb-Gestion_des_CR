@@ -34,7 +34,7 @@ Partial Class voir_visite
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -81,7 +81,7 @@ Partial Class voir_visite
         Me.RichTextBox1.Name = "RichTextBox1"
         Me.RichTextBox1.Size = New System.Drawing.Size(371, 93)
         Me.RichTextBox1.TabIndex = 8
-        Me.RichTextBox1.Text = "Réponse à la question 3"
+        Me.RichTextBox1.Text = "Bilan"
         '
         'Label4
         '
@@ -164,21 +164,21 @@ Partial Class voir_visite
         Me.Label5.TabIndex = 0
         Me.Label5.Text = "Question 1 : "
         '
-        'Button1
+        'ListBox1
         '
-        Me.Button1.Location = New System.Drawing.Point(206, 141)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(183, 23)
-        Me.Button1.TabIndex = 8
-        Me.Button1.Text = "Voir Les échantillons"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.ListBox1.FormattingEnabled = True
+        Me.ListBox1.Items.AddRange(New Object() {"Dolipranne", "Dafalgan", "..."})
+        Me.ListBox1.Location = New System.Drawing.Point(236, 121)
+        Me.ListBox1.Name = "ListBox1"
+        Me.ListBox1.Size = New System.Drawing.Size(120, 95)
+        Me.ListBox1.TabIndex = 8
         '
         'voir_visite
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(621, 753)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.ListBox1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label1)
@@ -202,5 +202,5 @@ Partial Class voir_visite
     Friend WithEvents RadioButton2 As System.Windows.Forms.RadioButton
     Friend WithEvents RadioButton1 As System.Windows.Forms.RadioButton
     Friend WithEvents Label5 As System.Windows.Forms.Label
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents ListBox1 As System.Windows.Forms.ListBox
 End Class

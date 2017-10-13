@@ -22,39 +22,52 @@ Partial Class DonnerEchantillon
     'Ne la modifiez pas à l'aide de l'éditeur de code.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
-        Me.ListeEchantillon = New System.Windows.Forms.ListBox()
-        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.CheckedListBox1 = New System.Windows.Forms.CheckedListBox()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'NumericUpDown1
+        'Label1
         '
-        Me.NumericUpDown1.Location = New System.Drawing.Point(302, 94)
-        Me.NumericUpDown1.Name = "NumericUpDown1"
-        Me.NumericUpDown1.Size = New System.Drawing.Size(120, 20)
-        Me.NumericUpDown1.TabIndex = 0
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(196, 21)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(108, 13)
+        Me.Label1.TabIndex = 2
+        Me.Label1.Text = "Liste des échantillons"
         '
-        'ListeEchantillon
+        'CheckedListBox1
         '
-        Me.ListeEchantillon.FormattingEnabled = True
-        Me.ListeEchantillon.Location = New System.Drawing.Point(83, 94)
-        Me.ListeEchantillon.Name = "ListeEchantillon"
-        Me.ListeEchantillon.Size = New System.Drawing.Size(184, 134)
-        Me.ListeEchantillon.TabIndex = 1
+        Me.CheckedListBox1.FormattingEnabled = True
+        Me.CheckedListBox1.Location = New System.Drawing.Point(68, 48)
+        Me.CheckedListBox1.Name = "CheckedListBox1"
+        Me.CheckedListBox1.Size = New System.Drawing.Size(373, 274)
+        Me.CheckedListBox1.TabIndex = 4
+        '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(165, 348)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(172, 23)
+        Me.Button3.TabIndex = 11
+        Me.Button3.Text = "Valider"
+        Me.Button3.UseVisualStyleBackColor = True
         '
         'DonnerEchantillon
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(550, 408)
-        Me.Controls.Add(Me.ListeEchantillon)
-        Me.Controls.Add(Me.NumericUpDown1)
+        Me.ClientSize = New System.Drawing.Size(507, 400)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.CheckedListBox1)
+        Me.Controls.Add(Me.Label1)
         Me.Name = "DonnerEchantillon"
         Me.Text = "DonnerEchantillon"
-        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
-    Friend WithEvents NumericUpDown1 As System.Windows.Forms.NumericUpDown
-    Friend WithEvents ListeEchantillon As System.Windows.Forms.ListBox
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents CheckedListBox1 As System.Windows.Forms.CheckedListBox
+    Friend WithEvents Button3 As System.Windows.Forms.Button
 End Class

@@ -29,6 +29,7 @@ Partial Class DonnerEchantillon3
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Button3 = New System.Windows.Forms.Button()
         CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDown2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NumericUpDown3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -91,11 +92,21 @@ Partial Class DonnerEchantillon3
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "Séléctionnez le nombre d'échantillon"
         '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(54, 133)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(172, 23)
+        Me.Button3.TabIndex = 11
+        Me.Button3.Text = "Valider"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
         'DonnerEchantillon3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(281, 153)
+        Me.ClientSize = New System.Drawing.Size(281, 177)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -119,4 +130,5 @@ Partial Class DonnerEchantillon3
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Button3 As System.Windows.Forms.Button
 End Class

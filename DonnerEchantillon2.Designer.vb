@@ -24,7 +24,7 @@ Partial Class DonnerEchantillon2
     Private Sub InitializeComponent()
         Me.ListeEchantillon = New System.Windows.Forms.ListBox()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Ajouter = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -42,27 +42,27 @@ Partial Class DonnerEchantillon2
         'ListBox1
         '
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Location = New System.Drawing.Point(385, 100)
+        Me.ListBox1.Location = New System.Drawing.Point(418, 100)
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.Size = New System.Drawing.Size(322, 290)
         Me.ListBox1.TabIndex = 3
         '
-        'Button1
+        'Ajouter
         '
-        Me.Button1.Location = New System.Drawing.Point(340, 153)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(39, 62)
-        Me.Button1.TabIndex = 5
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Ajouter.Location = New System.Drawing.Point(340, 153)
+        Me.Ajouter.Name = "Ajouter"
+        Me.Ajouter.Size = New System.Drawing.Size(72, 62)
+        Me.Ajouter.TabIndex = 5
+        Me.Ajouter.Text = "Ajouter"
+        Me.Ajouter.UseVisualStyleBackColor = True
         '
         'Button2
         '
         Me.Button2.Location = New System.Drawing.Point(340, 257)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(39, 62)
+        Me.Button2.Size = New System.Drawing.Size(72, 62)
         Me.Button2.TabIndex = 6
-        Me.Button2.Text = "Button2"
+        Me.Button2.Text = "Supprimer"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Label1
@@ -77,7 +77,7 @@ Partial Class DonnerEchantillon2
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(531, 72)
+        Me.Label2.Location = New System.Drawing.Point(558, 72)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(36, 13)
         Me.Label2.TabIndex = 9
@@ -96,12 +96,12 @@ Partial Class DonnerEchantillon2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(729, 491)
+        Me.ClientSize = New System.Drawing.Size(752, 491)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Ajouter)
         Me.Controls.Add(Me.ListBox1)
         Me.Controls.Add(Me.ListeEchantillon)
         Me.Name = "DonnerEchantillon2"
@@ -112,7 +112,7 @@ Partial Class DonnerEchantillon2
     End Sub
     Friend WithEvents ListeEchantillon As System.Windows.Forms.ListBox
     Friend WithEvents ListBox1 As System.Windows.Forms.ListBox
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents Ajouter As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label

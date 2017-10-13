@@ -63,7 +63,7 @@ Partial Class compte_rendu
         Me.TextBox2.ReadOnly = True
         Me.TextBox2.Size = New System.Drawing.Size(159, 22)
         Me.TextBox2.TabIndex = 1
-        Me.TextBox2.Text = "nom & prenom médecin"
+        Me.TextBox2.Text = "adresse  cabinet"
         '
         'GroupBox1
         '

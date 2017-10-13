@@ -1,0 +1,9 @@
+c:\users\16rainea\documents\visual studio 2010\Projects\PPE 3 - CR\PPE 3 - CR\bin\Debug\PPE 3 - CR.exe
+c:\users\16rainea\documents\visual studio 2010\Projects\PPE 3 - CR\PPE 3 - CR\bin\Debug\PPE 3 - CR.pdb
+c:\users\16rainea\documents\visual studio 2010\Projects\PPE 3 - CR\PPE 3 - CR\bin\Debug\PPE 3 - CR.xml
+c:\users\16rainea\documents\visual studio 2010\Projects\PPE 3 - CR\PPE 3 - CR\obj\x86\Debug\PPE_3___CR.NouveauMedecin.resources
+c:\users\16rainea\documents\visual studio 2010\Projects\PPE 3 - CR\PPE 3 - CR\obj\x86\Debug\PPE_3___CR.Resources.resources
+c:\users\16rainea\documents\visual studio 2010\Projects\PPE 3 - CR\PPE 3 - CR\obj\x86\Debug\PPE 3 - CR.vbproj.GenerateResource.Cache
+c:\users\16rainea\documents\visual studio 2010\Projects\PPE 3 - CR\PPE 3 - CR\obj\x86\Debug\PPE 3 - CR.exe
+c:\users\16rainea\documents\visual studio 2010\Projects\PPE 3 - CR\PPE 3 - CR\obj\x86\Debug\PPE 3 - CR.xml
+c:\users\16rainea\documents\visual studio 2010\Projects\PPE 3 - CR\PPE 3 - CR\obj\x86\Debug\PPE 3 - CR.pdb

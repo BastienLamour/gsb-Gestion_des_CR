@@ -146,7 +146,7 @@ Partial Class historique
         Me.Controls.Add(Me.ListView1)
         Me.Controls.Add(Me.Label1)
         Me.Name = "historique"
-        Me.Text = "GSB - Histogramme des visites"
+        Me.Text = "GSB - Historique des visites"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

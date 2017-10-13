@@ -48,9 +48,9 @@ Partial Class compte_rendu
         Me.TextBox1.Location = New System.Drawing.Point(29, 33)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ReadOnly = True
-        Me.TextBox1.Size = New System.Drawing.Size(134, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(147, 22)
         Me.TextBox1.TabIndex = 0
-        Me.TextBox1.Text = "Info visteur"
+        Me.TextBox1.Text = "Nom & prénom visiteur"
         '
         'TextBox2
         '
@@ -58,12 +58,12 @@ Partial Class compte_rendu
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox2.ForeColor = System.Drawing.SystemColors.WindowText
         Me.TextBox2.HideSelection = False
-        Me.TextBox2.Location = New System.Drawing.Point(392, 73)
+        Me.TextBox2.Location = New System.Drawing.Point(379, 73)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.ReadOnly = True
-        Me.TextBox2.Size = New System.Drawing.Size(146, 22)
+        Me.TextBox2.Size = New System.Drawing.Size(159, 22)
         Me.TextBox2.TabIndex = 1
-        Me.TextBox2.Text = "Info médecin"
+        Me.TextBox2.Text = "nom & prenom médecin"
         '
         'GroupBox1
         '
@@ -182,9 +182,9 @@ Partial Class compte_rendu
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(392, 35)
+        Me.ComboBox1.Location = New System.Drawing.Point(379, 35)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(146, 21)
+        Me.ComboBox1.Size = New System.Drawing.Size(159, 21)
         Me.ComboBox1.TabIndex = 6
         Me.ComboBox1.Text = "Choix du Médecin"
         '
@@ -199,9 +199,9 @@ Partial Class compte_rendu
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(392, 112)
+        Me.Button3.Location = New System.Drawing.Point(379, 112)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(146, 23)
+        Me.Button3.Size = New System.Drawing.Size(159, 23)
         Me.Button3.TabIndex = 8
         Me.Button3.Text = "Ajouter un médecin"
         Me.Button3.UseVisualStyleBackColor = True

@@ -115,6 +115,12 @@
     <Compile Include="voir_avis.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="voir_un_avis.Designer.vb">
+      <DependentUpon>voir_un_avis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="voir_un_avis.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="voir_visite.Designer.vb">
       <DependentUpon>voir_visite.vb</DependentUpon>
     </Compile>
@@ -158,6 +164,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="voir_avis.resx">
       <DependentUpon>voir_avis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="voir_un_avis.resx">
+      <DependentUpon>voir_un_avis.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="voir_visite.resx">
       <DependentUpon>voir_visite.vb</DependentUpon>

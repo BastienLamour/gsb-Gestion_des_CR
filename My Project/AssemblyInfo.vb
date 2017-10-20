@@ -8,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' Passez en revue les valeurs des attributs de l'assembly
 
-<Assembly: AssemblyTitle("PPE 3 - CR")> 
+<Assembly: AssemblyTitle("WindowsApplication1")> 
 <Assembly: AssemblyDescription("")> 
 <Assembly: AssemblyCompany("")> 
-<Assembly: AssemblyProduct("PPE 3 - CR")> 
+<Assembly: AssemblyProduct("WindowsApplication1")> 
 <Assembly: AssemblyCopyright("Copyright ©  2017")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
 
 'Le GUID suivant est pour l'ID de la typelib si ce projet est exposé à COM
-<Assembly: Guid("973e0def-68f3-4a5c-b368-2bc484b269d0")> 
+<Assembly: Guid("86e86800-70ba-439c-bacd-584854906199")> 
 
 ' Les informations de version pour un assembly se composent des quatre valeurs suivantes :
 '
